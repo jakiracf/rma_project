@@ -391,8 +391,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun LoginRegisterScreen(navController: NavController) {
-    var email by remember { mutableStateOf("fila.com3@gmail.com") }
-    var password by remember { mutableStateOf("SpeedLink82<") }
+    var email by remember { mutableStateOf("*************") }
+    var password by remember { mutableStateOf("***********") }
     val context = LocalContext.current
 
     Column(
